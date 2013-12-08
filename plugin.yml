@@ -1,0 +1,13 @@
+name: FrostHealth
+main: frostHealth.FrostHealth
+version: 1.0
+commands:
+  rename:
+    description: frostHelath
+    usage: Use /FrostHealth
+    permission: FrostHealth.frosthealth
+    permission-message: FrostHealth - You don't have permission to use this command.   
+permissions:
+    FrostHealth.frostHealth:
+        description: permission for frosthealth.
+        default: op
