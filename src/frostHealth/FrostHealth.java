@@ -24,12 +24,12 @@ public class FrostHealth extends JavaPlugin {
 		 objective = scoreBoard.registerNewObjective("showhealth", "health");
 		 objective.setDisplaySlot(DisplaySlot.BELOW_NAME);
 		 objective.setDisplayName(ChatColor.BLUE + "❤");
-		 this.getServer().getConsoleSender().sendMessage(ChatColor.BLUE + "[FrostHealth] Plugin enabled.");
+		 this.getServer().getConsoleSender().sendMessage(ChatColor.AQUA + "[FrostHealth] Plugin enabled.");
 		 return;
 	}
 
 	public void onDisable() {
-		this.getServer().getConsoleSender().sendMessage(ChatColor.BLUE + "[FrostHealth] Plugin disabled.");
+		this.getServer().getConsoleSender().sendMessage(ChatColor.AQUA + "[FrostHealth] Plugin disabled.");
 	}
 	
 	
