@@ -1,3 +1,5 @@
+![FrostHealth](/frosthealth-logo.png?raw=true "FrostHealth")
+
 FrostHealth
 ===========
 A minecraft Bukkit plugin which shows player health above names.
